@@ -8,10 +8,80 @@
     height: 100%;
 }
 
+.background{
+    width: 100%
+}
+
+
+#fixed{
+    background-image: url(img/fixed.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+figure{
+    margin: 0px;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+.fixed-background-caption{
+    position: relative;
+    top: 50%;
+}
+
+
 
 @media (max-width: 575.98px) { 
-    .display-4{
-        font-size: 2rem;
+
+    .background{
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 596px){
+    .fixed-background-caption{
+        top: 30%
     }
 }
 
+
+@media (max-width: 878px){
+    .display-1{
+        font-size: 5rem;
+    }
+}
+
+
+@media (max-width: 860px){
+    .display-1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 575px){
+    .display-1{
+        font-size: 3rem;
+    }
+}
+/* 
+<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <h1 class="display-4">Rojen 23. marca leta 1754 v Zagorici pri Dolenskem</h1>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+    <img src="img/removedbackgroud.png" alt="" id="background">
+</div>
+*/
