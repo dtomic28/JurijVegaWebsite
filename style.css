@@ -1,8 +1,14 @@
-#sketch{
-    max-height: 70px;
+
+/*
+GLOBALNI CSS
+*/
+
+
+.navbar-brand img{
+    height: 70px !important;
 }
 
-.jumbotron{
+.jumbotron-homepage{
     padding: 7em;
 }
 
@@ -12,12 +18,10 @@
 }
 
 .background{
-    width: 100%
+    width: 100%;
 }
 
-
-#fixed{
-    background-image: url(img/fixed.jpg);
+.fixed{
     height: 600px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,6 +45,50 @@ figure{
     position: relative;
     top: 50%;
 }
+
+.article{
+    padding: 5rem;
+    width: 100%;
+}
+
+.gray-background{
+    background-color: #dfe6e9;
+}
+
+.darker-gray-background{
+    background-color: #b2bec3;
+}
+
+.footer-copyright{
+    margin: 0px -15px;
+}
+
+/*
+HOMEPAGE CSS
+*/
+.homepage-fixed{
+    background-image: url(img/fixed.jpg);
+}
+
+/*
+ZIVLJENJE CSS
+*/
+
+.zivljenje-fixed{
+    background-image: url(img/rojstnaHisa.jpg);
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+/*
+CSS PRELOMNE TOČKE ZA RESPONZIVNOST
+*/
 
 @media (max-width: 452px) {
     .fixed-background-caption{
