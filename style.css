@@ -54,7 +54,7 @@ figure{
 
 @media (max-width: 596px){
     .fixed-background-caption{
-        top: 30%
+        top: 20%
     }
 }
 
@@ -69,6 +69,10 @@ figure{
 @media (max-width: 860px){
     .display-1{
         font-size: 4rem;
+    }
+
+    .fixed-background-caption{
+        top: 40%
     }
 }
 
