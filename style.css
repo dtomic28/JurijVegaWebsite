@@ -41,8 +41,17 @@ figure{
 
 @media (max-width: 452px) {
     .fixed-background-caption{
-        top: 10%;
+        top: 10% !important;
     }
+
+    .display-1{
+        font-size: 2.5rem !important;
+    }
+
+    .carousel-caption{
+        top: 40%;
+    }
+
 }
 
 @media (max-width: 575.98px) { 
@@ -60,6 +69,12 @@ figure{
     .fixed-background-caption{
         top: 20%;
     }
+
+    .display-1{
+        font-size: 4rem;
+    }
+
+
 }
 
 
