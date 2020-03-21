@@ -39,7 +39,11 @@ figure{
     top: 50%;
 }
 
-
+@media (max-width: 452px) {
+    .fixed-background-caption{
+        top: 10%;
+    }
+}
 
 @media (max-width: 575.98px) { 
 
@@ -54,7 +58,7 @@ figure{
 
 @media (max-width: 596px){
     .fixed-background-caption{
-        top: 20%
+        top: 20%;
     }
 }
 
@@ -72,7 +76,7 @@ figure{
     }
 
     .fixed-background-caption{
-        top: 40%
+        top: 40%;
     }
 }
 
