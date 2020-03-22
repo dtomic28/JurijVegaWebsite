@@ -37,6 +37,14 @@ body{
 
 }
 
+.fixed-article{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 figure{
     margin: 0px;
 }
@@ -70,6 +78,10 @@ figure{
     margin: 0px -15px;
 }
 
+.list-links li{
+    margin: 10px;
+}
+
 /*
 HOMEPAGE CSS
 */
@@ -86,6 +98,14 @@ ZIVLJENJE CSS
     height: 400px;
 }
 
+/*
+MATEMATIKA CSS
+*/
+
+.matematika-fixed{
+    background-image: url(img/matematikaOzadje.jpeg);
+    height: 400px;
+}
 
 
 
@@ -128,10 +148,6 @@ CSS PRELOMNE TOČKE ZA RESPONZIVNOST
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .carousel-caption-valuta{
-        top: 50%;
     }
 
 }
