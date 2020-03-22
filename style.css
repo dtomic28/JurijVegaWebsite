@@ -1,8 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 /*
 GLOBALNI CSS
 */
 
+
+body{
+    font-family: 'roboto', sans-serif;
+}
 
 .navbar-brand img{
     height: 70px !important;
@@ -90,9 +97,18 @@ ZIVLJENJE CSS
 CSS PRELOMNE TOČKE ZA RESPONZIVNOST
 */
 
-@media (max-width: 452px) {
+@media (max-width: 378px){
+    .carousel-caption-valuta{
+        top: 25% !important;
+    }
+}
+
+
+
+
+@media (max-width: 492px) {
     .fixed-background-caption{
-        top: 10% !important;
+        top: 35% !important;
     }
 
     .display-1{
@@ -114,6 +130,10 @@ CSS PRELOMNE TOČKE ZA RESPONZIVNOST
         margin-right: auto;
     }
 
+    .carousel-caption-valuta{
+        top: 50%;
+    }
+
 }
 
 @media (max-width: 596px){
@@ -128,6 +148,11 @@ CSS PRELOMNE TOČKE ZA RESPONZIVNOST
 
 }
 
+@media (max-width: 605px){
+    .carousel-caption-valuta{
+        top: 30%;
+    }
+}
 
 @media (max-width: 878px){
     .display-1{
