@@ -86,7 +86,7 @@ figure{
 HOMEPAGE CSS
 */
 .homepage-fixed{
-    background-image: url(img/fixed.jpg);
+    background-image: url(img/fixed-min.jpg);
 }
 
 /*
@@ -94,7 +94,7 @@ ZIVLJENJE CSS
 */
 
 .zivljenje-fixed{
-    background-image: url(img/rojstnaHisa.jpg);
+    background-image: url(img/rojstnaHisa-min.jpg);
     height: 400px;
 }
 
@@ -103,7 +103,7 @@ MATEMATIKA CSS
 */
 
 .matematika-fixed{
-    background-image: url(img/matematikaOzadje.jpeg);
+    background-image: url(img/matematikaOzadje-min.jpeg);
     height: 400px;
 }
 
