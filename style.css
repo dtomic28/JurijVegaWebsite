@@ -109,8 +109,13 @@ MATEMATIKA CSS
 
 
 /*
+FIZIKA CSS
 */
 
+.fizika-fixed{
+    background-image: url(img/fizika-min.jpg);
+    height: 400px;
+}
 
 
 
