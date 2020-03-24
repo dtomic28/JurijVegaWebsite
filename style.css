@@ -55,6 +55,10 @@ figure{
     transform: translateY(-50%)
 }
 
+.jumbotron{
+    background-color: #dfe6e9;
+}
+
 
 .fixed-background-caption{
     position: relative;
