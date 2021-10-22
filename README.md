@@ -1,4 +1,5 @@
-## NRS WEBSITE
+## Jurij Vega Website
 
-Greetings. This is a project for NRS. I have time till april. Doing a little bit day by day. Hopefully it goes well.
+Greetings. This is a website that i made for my web development class in school. It is about a slovenian mathematic Jurij Vega.
+
 
